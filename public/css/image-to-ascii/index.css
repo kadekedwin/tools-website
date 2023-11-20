@@ -1,0 +1,95 @@
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins;
+    font-weight: medium;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins;
+    font-weight: bold;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+* {
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    /* margin: 0; */
+} 
+h1 {
+    font-size: 32px;
+    font-weight: medium;
+}
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F6F7F9;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 32px 36px 40px 36px;
+    border: 5px dashed black;
+    border-radius: 30px;
+    /* background-color: white; */
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.container form {
+
+}
+.container form div {
+    position: relative;
+    width: 100%;
+    min-height: 150px;
+    /* padding: 32px 0; */
+    border: 5px dashed rgb(255, 205, 205);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container form div:hover {
+    border-color: rgb(255, 105, 105);
+}
+.container form div input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.container form div img {
+    display: block;
+    width: 200px;
+    padding: 24px 0;
+}
+.container form div p {
+    font-weight: medium;
+}
+.container button {
+    width: 100%;
+    padding: 18px 12px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 115, 255);
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: rgb(47, 141, 255);
+}

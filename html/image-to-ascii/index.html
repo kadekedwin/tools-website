@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/image-to-ascii/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IMAGE TO ASCII</h1>
+        <form action="/image-to-ascii" method="post" enctype="multipart/form-data">
+            <div class="file-upload">
+                <input type="file" accept="image/*" name="file-upload" id="file-upload" required/>
+                <img src="" alt="" id="file-preview">
+                <p id="file-label">UPLOAD IMAGE</p>
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+    </div>
+
+    <script src="/js/image-to-ascii/index.js"></script>
+</body>
+</html>
